@@ -1,5 +1,54 @@
+.body{
+  height: 100%;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/src/doraemon.jpeg");
+  background-size: cover; /* so the viewport is full with viewport*/
+}
+
+.container{
+  background-color: black;
+  height: 580px;
+  width: 580px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-name{
+  font-size: 85px;
+  font-family:fantasy;
+  color:yellowgreen;
+  margin-top: 5px;;
+}
+
+.time-box{
+  color: red;
+  font-size: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 5px;;
+}
+
+.button-time{
+font-size: 50px;
+color:darkslategray;
+border-radius: 25px;
+background-color:chartreuse;
+}
+
+.button__wrapper{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
 }
 
 .App-logo {
